@@ -1,0 +1,10 @@
+date,court,time_slot,hour,day_of_week,is_weekend,is_peak_hour,is_booked,revenue,customer_type,was_cancelled,was_no_show,advance_booking_days,actual_revenue
+2024-07-01,Court 1,18:00,18,Monday,False,True,True,50.00,Regular,False,False,3,50.00
+2024-07-01,Court 1,19:00,19,Monday,False,True,True,52.00,Regular,False,False,2,52.00
+2024-07-01,Court 1,20:00,20,Monday,False,True,False,0.00,,,False,False,,0.00
+2024-07-01,Court 2,18:00,18,Monday,False,True,True,50.00,One-time,False,False,1,50.00
+2024-07-01,Court 2,19:00,19,Monday,False,True,True,50.00,Corporate,False,False,7,50.00
+2024-07-02,Court 1,10:00,10,Tuesday,False,False,False,0.00,,,False,False,,0.00
+2024-07-02,Court 1,18:00,18,Tuesday,False,True,True,55.00,Regular,True,False,2,0.00
+2024-07-06,Court 1,10:00,10,Saturday,True,False,True,45.00,One-time,False,True,0,0.00
+2024-07-06,Court 1,18:00,18,Saturday,True,True,True,60.00,Regular,False,False,5,60.00

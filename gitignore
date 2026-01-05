@@ -1,0 +1,69 @@
+# Data files (NEVER commit actual business data)
+data/
+*.csv
+*.xlsx
+*.xls
+
+# Credentials and secrets
+.env
+.streamlit/secrets.toml
+secrets.toml
+config.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Outputs (optional - remove if you want to track outputs)
+outputs/
+reports/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
